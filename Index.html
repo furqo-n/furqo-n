@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Nur Furqon - Frontend Developer Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#home">Furqon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="particles-bg"></div>
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 py-5">
+                        <div class="hero-content">
+                            <p class="hero-greeting">
+                                <i class="fas fa-hand-wave"></i> Halo, Saya
+                            </p>
+                            <h1 class="hero-name">Muhammad Nur Furqon</h1>
+                            <h2 class="hero-title">
+                                <span class="typed-text-output">Frontend Developer</span>
+                                <span class="typed-cursor">|</span>
+                            </h2>
+                            <p class="hero-description">
+                                Passionate about creating beautiful and functional web experiences with modern
+                                technologies.
+                            </p>
+                            <div class="hero-buttons">
+                                <a href="#" class="btn btn-warning btn-lg">
+                                    <i class="fas fa-download me-2"></i>Download CV
+                                </a>
+                                <a href="#projects" class="btn btn-outline-light btn-lg">
+                                    <i class="fas fa-briefcase me-2"></i>See My Work
+                                </a>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://github.com/furqo-n" target="_blank" class="social-link" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/muhammad-furqon-059714392/" target="_blank"
+                                    class="social-link" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://www.instagram.com/f_urqo_n?igsh=Y2EzMnZjOGhqaGU3" target="_blank"
+                                    class="social-link" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="mailto:muammahnurfurqon3@gmail.com" class="social-link" title="Email">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <div class="profile-wrapper">
+                            <div class="profile-glow"></div>
+                            <img class="img-fluid profile-custom" src="src/Foto profile2.png" alt="Muhammad Nur Furqon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center text-white mb-5">My Skills</h2>
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6">
+                    <h5 class="text-light mb-3">My Skills</h5>
+                    <h1 class="display-4 text-warning mb-3">Memahami berbagai skill yang relevan</h1>
+                    <p class="text-light">Saya memiliki kemampuan dalam berbagai teknologi web development dan design
+                        tools.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="card border-warning h-100 text-center bg-light">
+                                <div class="card-body">
+                                    <img src="src/Logo HTML.svg" class="mb-3" alt="HTML" style="height: 50px;">
+                                    <h5 class="card-title text-black mb-2">HTML</h5>
+                                    <div class="progress mb-2">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 99%;"
+                                            aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">99%</div>
+                                    </div>
+                                    <small class="text-muted">Advanced</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-warning h-100 text-center bg-light">
+                                <div class="card-body">
+                                    <img src="src/Logo CSS.svg" class="mb-3" alt="CSS" style="height: 50px;">
+                                    <h5 class="card-title text-black mb-2">CSS</h5>
+                                    <div class="progress mb-2">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 99%;"
+                                            aria-valuenow="99" aria-valuemin="0" aria-valuemax="100">99%</div>
+                                    </div>
+                                    <small class="text-muted">Advanced</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-warning h-100 text-center bg-light">
+                                <div class="card-body">
+                                    <img src="src/Logo Figma.svg" class="mb-3" alt="Figma" style="height: 50px;">
+                                    <h5 class="card-title text-black mb-2">Figma</h5>
+                                    <div class="progress mb-2">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 95%;"
+                                            aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+                                    </div>
+                                    <small class="text-muted">Expert</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-warning h-100 text-center bg-light">
+                                <div class="card-body">
+                                    <img src="src/Logo Photoshop.svg" class="mb-3" alt="Photoshop"
+                                        style="height: 50px;">
+                                    <h5 class="card-title text-black mb-2">Photoshop</h5>
+                                    <div class="progress mb-2">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 90%;"
+                                            aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                    </div>
+                                    <small class="text-muted">Advanced</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-warning h-100 text-center bg-light">
+                                <div class="card-body">
+                                    <img src="src/Logo python-5.svg" class="mb-3" alt="Python" style="height: 50px;">
+                                    <h5 class="card-title text-black mb-2">Python</h5>
+                                    <div class="progress mb-2">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 55%;"
+                                            aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                                    </div>
+                                    <small class="text-muted">Intermediate</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card border-warning h-100 text-center bg-light">
+                                <div class="card-body">
+                                    <img src="src/Logo React.svg" class="mb-3" alt="React" style="height: 50px;">
+                                    <h5 class="card-title text-black mb-2">React</h5>
+                                    <div class="progress mb-2">
+                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 55%;"
+                                            aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                                    </div>
+                                    <small class="text-muted">Intermediate</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Project yang sudah saya buat</h2>
+            <div class="row align-items-center g-4 mb-5">
+                <div class="col-lg-6">
+                    <h3 class="text-dark mb-3">Prime Fit</h3>
+                    <h4 class="text-warning mb-3">Mobile App untuk memberi pelatihan Workout</h4>
+                    <p class="text-muted mb-4">Aplikasi mobile yang dirancang untuk membantu pengguna dalam melakukan
+                        latihan workout dengan panduan yang lengkap dan mudah diikuti.</p>
+                    <div class="d-flex gap-2">
+                        <span class="badge bg-warning text-dark">React Native</span>
+                        <span class="badge bg-warning text-dark">JavaScript</span>
+                        <span class="badge bg-warning text-dark">Mobile App</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img class="img-fluid rounded shadow" src="src/Prime-Fit.png" alt="Prime Fit App"
+                        style="max-height: 400px;">
+                </div>
+            </div>
+
+            <!-- Second Project -->
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6 text-center order-lg-2">
+                    <img class="img-fluid rounded shadow" src="src/catchWithCare.png" alt="Catch With Care Game"
+                        style="max-height: 400px;">
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <h3 class="text-dark mb-3">Catch With Care</h3>
+                    <h4 class="text-warning mb-3">Game Unity - Fishing Game</h4>
+                    <p class="text-muted mb-4">Game interaktif yang dikembangkan dengan Unity. Pemain harus mengumpulkan
+                        objek dengan hati-hati sambil menghindari rintangan. Game ini menggabungkan mekanik gameplay
+                        yang menyenangkan dengan visual yang menarik.</p>
+                    <div class="d-flex gap-2 mb-3">
+                        <span class="badge bg-warning text-dark">Unity</span>
+                        <span class="badge bg-warning text-dark">C#</span>
+                        <span class="badge bg-warning text-dark">Game Development</span>
+                    </div>
+                    <a href="https://furqo-n.itch.io/catch-with-care" target="_blank" class="btn btn-warning btn-sm">
+                        <i class="fas fa-external-link-alt me-2"></i>Play Game
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center text-white mb-5">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="text-warning mb-4">Siapa saya?</h3>
+                    <p class="lead mb-4 text-white">Saya adalah mahasiswa yang sedang menjalani program magang sebagai
+                        Frontend Developer. Saya memiliki passion dalam dunia web development dan design.</p>
+                    <p class="mb-4">Dengan pengalaman dalam HTML, CSS, JavaScript, dan berbagai framework modern, saya
+                        berkomitmen untuk terus belajar dan mengembangkan kemampuan saya dalam menciptakan pengalaman
+                        web yang luar biasa.</p>
+                    <div class="row g-3">
+                        <div class="col-6">
+                            <div class="text-center">
+                                <h4 class="text-warning">6+</h4>
+                                <small class="text-light">Bulan Pengalaman</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="text-center">
+                                <h4 class="text-warning">10+</h4>
+                                <small class="text-light">Project Selesai</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="card bg-warning text-dark border-0">
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Tech Stack & Tools</h5>
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <small class="d-block">Frontend</small>
+                                    <strong>HTML, CSS, JS</strong>
+                                </div>
+                                <div class="col-6">
+                                    <small class="d-block">Framework</small>
+                                    <strong>React, Bootstrap</strong>
+                                </div>
+                                <div class="col-6">
+                                    <small class="d-block">Design</small>
+                                    <strong>Figma, Photoshop</strong>
+                                </div>
+                                <div class="col-6">
+                                    <small class="d-block">Backend</small>
+                                    <strong>Python, Node.js</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container experience-wrapper">
+            <h2 class="text-center mb-5 fw-bold text-white">Pengalaman Kerja</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="job-role">Teknisi & Frontliner</h3>
+                                <div class="company">
+                                    <i class="fas fa-laptop-code"></i> AERALAPTOP
+                                </div>
+                            </div>
+                            <div class="work-period">
+                                <i class="fas fa-calendar-alt"></i> Agustus 2022 - Sekarang
+                            </div>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Bertanggung jawab dalam layanan perbaikan dan konsultasi teknis untuk laptop dan
+                                komputer.</p>
+                            <ul class="task-list">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Melayani konsultasi teknis kepada pelanggan dengan profesional dan responsif
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Melakukan diagnosa dan perbaikan masalah hardware dan software
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Menangani komunikasi dengan pelanggan dan mengurai masalah teknis
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Memberikan layanan purna jual dan membangun kepuasan pelanggan
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship Experience -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="job-role">Intern - Mobile & Web Developer</h3>
+                                <div class="company">
+                                    <i class="fas fa-code"></i> Peta IKITAS
+                                </div>
+                            </div>
+                            <div class="work-period">
+                                <i class="fas fa-calendar-alt"></i> 2022 (6 Bulan)
+                            </div>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Magang di perusahaan jasa pembuatan aplikasi mobile dan website selama masa SMK.</p>
+                            <ul class="task-list">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Belajar dan mengembangkan aplikasi mobile menggunakan teknologi modern
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Membantu dalam pembuatan website untuk berbagai klien
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Berkolaborasi dengan tim developer dalam proyek aplikasi
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Mempelajari best practices dalam software development
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container experience-wrapper">
+            <h2 class="text-center mb-5 fw-bold text-white">Pendidikan</h2>
+            <div class="timeline">
+                <!-- University -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="job-role">Universitas Negeri Semarang</h3>
+                                <div class="company">
+                                    <i class="fas fa-graduation-cap"></i> Jurusan Teknik Informatika
+                                </div>
+                            </div>
+                            <div class="work-period">
+                                <i class="fas fa-calendar-alt"></i> 2023 - Sekarang
+                            </div>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mengambil jurusan Teknik Informatika di Universitas Negeri Semarang, dengan fokus pada
+                                Pengembangan Aplikasi dan Machine Learning.</p>
+                            <div class="d-flex gap-2 flex-wrap mt-3">
+                                <span class="badge bg-warning text-dark">Mahasiswa Aktif</span>
+                                <span class="badge border border-warning text-warning">IPK 3.84</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SMK -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="job-role">SMK Negeri 04, Semarang</h3>
+                                <div class="company">
+                                    <i class="fas fa-school"></i> Jurusan Multimedia
+                                </div>
+                            </div>
+                            <div class="work-period">
+                                <i class="fas fa-calendar-alt"></i> 2019 - 2022
+                            </div>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Mengambil jurusan Multimedia di SMK Negeri 04, dengan fokus pada editing photo, Video,
+                                dan 3D.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-5">
+                            <div class="text-center mb-4">
+                                <h4 class="text-dark mb-3">Mari Berkolaborasi!</h4>
+                                <p class="text-muted">Saya selalu terbuka untuk diskusi tentang project menarik dan
+                                    peluang kerja sama.</p>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="bg-warning rounded-circle d-flex align-items-center justify-content-center me-3"
+                                            style="width: 50px; height: 50px;">
+                                            <i class="fas fa-envelope text-dark"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="mb-0">Email</h6>
+                                            <a href="mailto:muammahnurfurqon3@gmail.com"
+                                                class="text-decoration-none">muammahnurfurqon3@gmail.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center">
+                                        <div class="bg-warning rounded-circle d-flex align-items-center justify-content-center me-3"
+                                            style="width: 50px; height: 50px;">
+                                            <i class="fas fa-map-marker-alt text-dark"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="mb-0">Location</h6>
+                                            <span class="text-muted">Indonesia</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-4">
+                                <a href="mailto:muammahnurfurqon3@gmail.com" class="btn btn-warning btn-lg px-5">
+                                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Muhammad Nur Furqon. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cursor Follower -->
+    <div class="cursor-follower"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Interactive Cursor Effect -->
+    <script>
+        // Cursor follower effect
+        const cursorFollower = document.querySelector('.cursor-follower');
+        const cursorDot = document.querySelector('.cursor-dot');
+
+        let mouseX = 0, mouseY = 0;
+        let followerX = 0, followerY = 0;
+        let dotX = 0, dotY = 0;
+
+        document.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+
+            // Instant dot movement
+            dotX = mouseX;
+            dotY = mouseY;
+            cursorDot.style.left = dotX + 'px';
+            cursorDot.style.top = dotY + 'px';
+        });
+
+        // Smooth follower animation
+        function animateFollower() {
+            const speed = 0.15;
+
+            followerX += (mouseX - followerX) * speed;
+            followerY += (mouseY - followerY) * speed;
+
+            cursorFollower.style.left = followerX + 'px';
+            cursorFollower.style.top = followerY + 'px';
+
+            requestAnimationFrame(animateFollower);
+        }
+
+        animateFollower();
+
+        // Add hover effect on interactive elements
+        const interactiveElements = document.querySelectorAll('a, button, .btn, .card, .timeline-item, .social-link, .nav-link');
+
+        interactiveElements.forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursorFollower.style.transform = 'translate(-50%, -50%) scale(1.5)';
+                cursorDot.style.transform = 'translate(-50%, -50%) scale(0.5)';
+                cursorFollower.style.borderColor = '#ffc107';
+            });
+
+            el.addEventListener('mouseleave', () => {
+                cursorFollower.style.transform = 'translate(-50%, -50%) scale(1)';
+                cursorDot.style.transform = 'translate(-50%, -50%) scale(1)';
+                cursorFollower.style.borderColor = 'rgba(255, 193, 7, 0.5)';
+            });
+        });
+
+        // Navbar scroll effect
+        const navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>
